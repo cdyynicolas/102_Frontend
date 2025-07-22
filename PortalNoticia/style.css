@@ -1,4 +1,4 @@
-header{
+#header1{
     background-color:rgb(246, 246, 246);
     justify-content:center;
     height: 100px;
@@ -27,7 +27,7 @@ h2{
 
 #pages{
     background-color: darkgray;
-    width: 100px;
+    width: 100%;
     height: 20px;
     border-radius: 5px;
 }
@@ -45,18 +45,41 @@ h2{
     background-color: rgb(247, 247, 247);
     text-align: center;
     width: 200px;
-    height: 200px;
+    height: 450px;
     border-radius: 10px;
+}
+#esportesimg{
+    width: 100px;
 }
 
 #gossip{
     background-color: rgb(203, 203, 203);
     text-align: center;
     width: 200px;
-    height: 200px;
+    height: 450px;
     border-radius: 10px;
+}
+#gossipimg{
+    width: 100px;
+}
+
+#filmes{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    width: 200px;
+    height: 450px;
+    border-radius: 10px;
+}
+#filmesimg{
+    width: 100px;
 }
 
 #footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-}
+    background-color: darkgray;
+    border-radius: 5px;
+}   
