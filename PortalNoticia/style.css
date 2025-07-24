@@ -74,6 +74,18 @@ h2{
     width: 100px;
 }
 
+#games{
+    background-color: rgb(203, 203, 203);
+    text-align: center;
+    width: 200px;
+    height: 450px;
+    border-radius: 10px;
+}
+#gamesimg{
+    width: 100px;
+}
+
+
 #footer{
     position: fixed;
     left: 0;
