@@ -4,7 +4,7 @@ body{
 }
 
 #header1{
-    position: fixed;
+    position: absolute;
     padding-left: 20px;
 }
 
@@ -23,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
+    border: 3px solid #e7e7e7;
     background-color: #f3f3f3;
 }
 li a {
@@ -101,12 +101,37 @@ li a:hover:not(.active) {
     width: 100px;
 }
 
+#entretainment{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 15px;
+}
+#entretainmentimg{
+    width: 100px;
+}
 
-#footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-radius: 5px;
-    background-color: darkgray;
-}   
+#tech{
+    background-color: rgb(203, 203, 203);
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 15px;
+}
+#techimg{
+    width: 100px;
+}
+
+
+footer {
+background-color: #f3f3f3;
+padding: 20px;
+border: 2px solid #ccc;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
