@@ -5,9 +5,9 @@
     padding: 0;
 }
 
-h1{color: #620860;}
+h1{color: #000000;}
 
-h2{color: #620869;}
+h2{color: #484848;}
 
 .creation-date{
     color: #121212;
@@ -38,19 +38,19 @@ h2{color: #620869;}
 
 #sports {
     background-size: 100%;
-    background-color: rgb(255, 164, 164);
+    background-color: rgb(255, 172, 172);
 }
 #economy {
     background-size: 100%;
-    background-color: rgb(255, 177, 243);
+    background-color: rgb(172, 255, 176);
 }
 
 #Entretainment {
     background-size: 100%;
-    background-color: rgb(214, 255, 203);
+    background-color: rgb(185, 172, 255);
 }
 
 #Technology {
     background-size: 100%;
-    background-color: rgb(191, 255, 249);
+    background-color: rgb(248, 255, 172);
 }

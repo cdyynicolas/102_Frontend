@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #edd4b2;
+    font-family: monospace;
+}
+
+.cartao {
+    background: #d9d9d9;
+    border-radius: 15px;
+    width: 300px;
+    margin: 10px;
+    border: 3px solid;
+    padding: 10px;
+}
+
+.titulo{
+    margin: 5px;
+    padding: 5px;
+}
+
+.img{
+    text-align: center;
+    padding: 2px;
+}
+
+.linha{
+    background-color: rgb(49, 49, 49);
+    height: 1px;
+}
